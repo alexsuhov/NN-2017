@@ -1,2 +1,2 @@
 # nn
-ceva despre nn
+ceva despre nn 
