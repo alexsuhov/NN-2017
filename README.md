@@ -1,0 +1,2 @@
+# nn
+ceva despre nn 
