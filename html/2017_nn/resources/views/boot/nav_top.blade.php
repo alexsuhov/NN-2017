@@ -29,9 +29,9 @@
                 <ul class="dropdown-menu">
                     <li><a href="{{ route('pachet.index') }}">Pachete</a></li>
                     <li role="separator" class="divider"></li>
-                    <li><a href="{{ url('list/batch') }}">Scan Proces 3</a></li> 
-                    <li><a href="{{url('list/batchF3')}}">Scan Proces 1</a></li>
-                    <li><a href="{{url('F3_error')}}">Erori Proces 3</a></li>
+                    <li><a href="{{ url('list/batch3') }}">Scan Proces 3</a></li>
+                    <li><a href="{{ url('list/batch1') }}">Scan Proces 1</a></li>                                         
+                    <li><a href="{{url('F3_error')}}">Erori Proces 1</a></li>
                 </ul>
             </li>     
             <li>

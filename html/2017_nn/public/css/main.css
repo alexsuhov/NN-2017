@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+/* ---------------------------------------------------------------------- */
+/*	Main Navigation
+/* ---------------------------------------------------------------------- */
+.main-navigation {
+  padding: 0;
+  max-height: none !important;
+  z-index: 1000; }
+
+.sidebar-fixed .wrap-menu {
+  overflow: hidden;
+  position: fixed;
+  width: 225px;
+  height: 300px; }
+
+ul.main-navigation-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+  ul.main-navigation-menu > li {
+    border: 0 none;
+    display: block;
+    margin: 0;
+    padding: 0; }
+    ul.main-navigation-menu > li:last-child > a, ul.main-navigation-menu > li.last > a {
+      border-bottom-color: transparent !important; }
+    ul.main-navigation-menu > li > a {
+      border: 0 none;
+      display: block;
+      font-size: 14px;
+      font-weight: 300;
+      margin: 0;
+      padding: 10px 15px;
+      position: relative;
+      text-decoration: none;
+      border-bottom: 1px solid #DDDDDD;
+      border-top: 1px solid #FFFFFF; }
+      ul.main-navigation-menu > li > a:hover {
+        opacity: 1; }
+      ul.main-navigation-menu > li > a i {
+        font-size: 16px;
+        margin-right: 5px;
+        text-shadow: none;
+        display: inline-block; }
+      ul.main-navigation-menu > li > a > .icon-arrow:before {
+        content: "\e163";
+        font-family: "clip-font"; }
+  ul.main-navigation-menu li {
+    /* 2nd level sub menu */ }
+    ul.main-navigation-menu li a .badge {
+      float: right;
+      margin-right: 13px;
+      margin-top: 1px; }
+    ul.main-navigation-menu li a .icon-arrow {
+      float: right;
+      margin-right: 6px; }
+      ul.main-navigation-menu li a .icon-arrow:before {
+        content: "\e163";
+        font-family: "clip-font"; }
+    ul.main-navigation-menu li.open > a > .icon-arrow {
+      opacity: 1; }
+      ul.main-navigation-menu li.open > a > .icon-arrow:before {
+        content: "\e164";
+        font-family: "clip-font"; }
+    ul.main-navigation-menu li.active > ul.sub-menu {
+      display: block;
+      padding: 0; }
+    ul.main-navigation-menu li > ul.sub-menu {
+      clear: both;
+      list-style: none;
+      margin: 8px 0;
+      display: none;
+      padding: 0; }
+      ul.main-navigation-menu li > ul.sub-menu > li {
+        background: none;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 1px !important;
+        padding: 0; }
+        ul.main-navigation-menu li > ul.sub-menu > li > a {
+          background: none;
+          display: block;
+          font-size: 14px;
+          font-weight: 300;
+          margin: 0;
+          padding-bottom: 5px;
+          padding-left: 40px !important;
+          padding-right: 0;
+          padding-top: 5px;
+          text-decoration: none; }
+      ul.main-navigation-menu li > ul.sub-menu li > a .icon-arrow {
+        margin-right: 22px; }
+      ul.main-navigation-menu li > ul.sub-menu li > ul.sub-menu {
+        margin: 0; }
+        ul.main-navigation-menu li > ul.sub-menu li > ul.sub-menu > li > a {
+          padding-left: 60px !important; }
+        ul.main-navigation-menu li > ul.sub-menu li > ul.sub-menu > li > ul.sub-menu > li > a {
+          padding-left: 80px !important; }
+
+/*navigation toggler*/
+.navigation-toggler {
+  cursor: pointer;
+  height: 30px;
+  margin-left: 175px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 30px;
+  line-height: 30px;
+  text-align: center; }
+
+
+
+
+
